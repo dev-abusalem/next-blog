@@ -7,10 +7,24 @@
   font-family: 'Comfortaa', cursive;
   box-sizing: border-box;
 }
+
+
 .dark{
-  background: #334155;
+  background: #020e04;
   color: #e2e8f0;
 }
 .theme{
   transition: 0.1s all ease-in-out;
+}
+.phero__img img{
+  
+  animation: imageani 3s infinite ease alternate;
+}
+@keyframes imageani {
+  from{
+    transform: translateY(15px);
+  }
+  to{
+    transform: translateY(0px);
+  }
 }
