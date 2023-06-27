@@ -8,7 +8,7 @@ const PHero = () => {
     <section>
         <ContLayout>
             <div>
-                <div className='flex my-16 items-center justify-between'>
+                <div className='md:flex my-16 items-center justify-between'>
                     <div className='md:w-1/2 md:mr-16'>
                         <h1 className=' py-3 font-light text-2xl md:text-6xl'>Lorem <span className='font-bold text-emerald-600'>ipsum dolor</span>, sit amet consectetur</h1>
                         <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nostrum. Odio quis voluptates aspernatur cupiditate, provident officia quidem voluptatibus fugit expedita ipsa? Odit vel ratione sed ducimus. Incidunt, necessitatibus veritatis?</p>
