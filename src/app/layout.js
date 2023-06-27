@@ -2,7 +2,7 @@ import Header from '@/components/Header/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
-import { ThemeModeProvider } from '../../context/ThemeModeContext'
+import { ThemeModeProvider } from '../context/ThemeModeContext'
 
 const inter = Inter({ subsets: ['latin'] })
 

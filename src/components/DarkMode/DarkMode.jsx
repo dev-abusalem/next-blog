@@ -2,7 +2,7 @@
 
 import React, { useContext } from 'react'
 import {BsFillSunFill, BsMoonFill} from "react-icons/bs"
-import { ThemeModeContext } from '../../../context/ThemeModeContext'
+import { ThemeModeContext } from '../../context/ThemeModeContext'
 
 const DarkMode = () => {
 
